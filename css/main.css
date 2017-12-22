@@ -246,10 +246,11 @@ nav {
     margin-left: 14px;
     font-size: 25px;
     background: none;
-    color: whitesmoke;
+    color: steelblue;
     border: solid thin;
     align-content: center;
     border-radius: 25px;
+    border: solid thin steelblue;
 }
 
 .navBar-design{

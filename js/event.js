@@ -125,7 +125,6 @@ $(document).ready(() => {
                 $(".postButton").on("click", function() {
                     const postText = document.getElementById("postText").value;
                     SDK.Post.addPostToEvent(SDK.Storage.load("userID"), postText, chosenEvent.id, (error, data) => {
-                        window.alert(SDK.Storage.load("userID") + postText + chosenEvent.id);
                         window.alert("Your post has been added.");
                         window.location.href = "event.html?eventId=" + chosenEvent.id;
                     });

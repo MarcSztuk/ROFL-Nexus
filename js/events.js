@@ -58,6 +58,7 @@ $(document).ready(() => {
 
                     SDK.Event.createEvent(SDK.Storage.load("userID"), title, startDate, endDate, description, (error, data) => {
 
+                        window.alert("Event has been created!");
                         window.location.href = "events.html"
 
                     });

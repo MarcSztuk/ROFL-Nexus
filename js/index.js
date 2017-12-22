@@ -91,7 +91,6 @@ $(document).ready(() => {
     $(".postButton").on("click", function() {
         const postText = document.getElementById("postText").value;
         SDK.Post.addGlobalPost(SDK.Storage.load("userID"), postText, (error, data) => {
-            window.alert(SDK.Storage.load("userID") + postText);
             window.alert("Your post has been added.");
             window.location.href = "index.html";
         });
