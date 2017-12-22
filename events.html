@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta charset="UTF-8">
+    <title>Café Nexus - Events</title>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row" id="nav-container"></div>
+    <!-- Har i nedenstående taget inspiration fra W3School: https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_table_basic&stacked=h-->
+    <div class="page-header">
+        <h1 style="text-align:center">Events</h1>
+    </div>
+
+    <div class="eventPage">
+        <div class="eventPage-left">
+            <div class="page-header">
+                <h1 style="text-align: center">All events</h1>
+                <div id="seeEvents"></div>
+            </div>
+            <div id=allEvents style='overflow:auto;width:100%;height:475px;'>
+            </div>
+        </div>
+
+        <div class="eventPage-right">
+            <div class="createEvent-options">
+                <div class="page-header">
+                    <h1 style="text-align: center">Create event</h1>
+                    <div id="register"></div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="title">Title of event:</label>
+                    <input type="text" class="form-control" id="title" placeholder="Title">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="description">Description of event:</label>
+                    <input type="text" class="form-control" id="description" placeholder="Description">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="startDate">Start date:</label>
+                    <input type="datetime-local" class="form-control" id="startDate" placeholder="Start date">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="endDate">End date:</label>
+                    <input type="datetime-local" class="form-control" id="endDate" placeholder="End date">
+                </div>
+                <button class="createEvent-button" class="btn btn-default" id="createEvent-button">Register Event</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p style="text-align: center" class="text-muted">2017 © All rights reserved - Café Nexus</p>
+    </div>
+</footer>
+
+<script type="text/javascript">
+    function chosenEvent(chosenEventId) {
+        return chosenEventId;
+    }
+</script>
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/events.js"></script>
+
+</body>
+</html>

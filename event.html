@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta charset="UTF-8">
+    <title>Café Nexus - See Event</title>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="row" id="nav-container"></div>
+
+    <div class="page-header" id="pageHead">
+    </div>
+
+    <div class="seeEvent">
+        <div class="event-left">
+            <p style="border-bottom:solid thin steelblue;text-align:center">Information</p>
+            <!-- Alt information omkring eventet puttes ind her samt subscrive knap -->
+        </div>
+
+        <div class="event-right">
+            <p style="border-bottom:solid thin steelblue;text-align:center">Posts regarding this event</p>
+            <!-- Alle posts listes her -->
+            <div id=listPosts style='overflow:auto;width:337px;height:81.5%'></div>
+            <div><i><textarea id="postText" class="postText">Write post..</textarea></i><button class="postButton">Post!</button></div>
+        </div>
+
+        <div class="event-center">
+            <!-- Alle participants listes her -->
+            <p style="border-bottom:solid thin steelblue;text-align:center">Participants</p>
+            <!-- Alle participants listes her -->
+            <div id=listParticipants style='overflow:auto;width:215px;height:400px;'></div>
+        </div>
+    </div>
+
+    <div class=" col-md-9 col-lg-9 ">
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <p style="text-align:center;" class="text-muted">2017 © All rights reserved - Café Nexus</p>
+    </div>
+</footer>
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/event.js"></script>
+
+</body>
+</html>

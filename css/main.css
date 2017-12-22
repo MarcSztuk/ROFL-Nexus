@@ -1,0 +1,292 @@
+nav {
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.listAllMembers {
+    float: left;
+    height: 60%;
+    width:80%;
+    margin-left:10%;
+    background-color: whitesmoke;
+    color: steelblue;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.viewProfileButton {
+    float: left;
+    width:80%;
+    margin-left:10%;
+    background-color: whitesmoke;
+    color: steelblue;
+    border-radius: 5px;
+    border: solid thin steelblue;
+}
+
+.viewProfile {
+    float: left;
+    width:80%;
+    margin-left:10%;
+    background-color: whitesmoke;
+    color: steelblue;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+.comment-style {
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.container {
+    background-color: white;
+    border: thin silver;
+}
+
+.modal-dialog {
+    background-color: whitesmoke;
+    color: white;
+    border-radius: 25px;
+    border: thin solid steelblue;;
+}
+
+.modal-content {
+    background-color: whitesmoke;
+    color: steelblue;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+
+.allEventsButton {
+    width: 90%;
+    height: 40px;
+    margin-top:60px;
+    margin-left: 14px;
+    font-size: 25px;
+    background: none;
+    color: steelblue;
+    border: solid thin;
+    align-content: center;
+    border: solid thin steelblue;
+}
+
+.viewEvents {
+    background-color: whitesmoke;
+    color: steelblue;
+    text-align: center;
+    display: inline-table;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.eventPage-left {
+    float: left;
+    width:45%;
+    height:600px;
+    background-color: whitesmoke;
+    color: steelblue;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.eventPage-right {
+    float: right;
+    width:45%;
+    height:600px;
+    background-color: whitesmoke;
+    color: steelblue;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.createEvent-button {
+    width: 90%;
+    height: 40px;
+    margin-top:60px;
+    margin-left: 14px;
+    font-size: 25px;
+    background: none;
+    color: steelblue;
+    border: solid thin;
+    align-content: center;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.createEvent-options {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.eventInfo {
+    border: 1px solid black;
+    background-color: #2b3e50;
+    border-radius: 25px;
+}
+
+.event-left {
+    float: left;
+    width:30%;
+    height:450px;
+    background-color: whitesmoke;
+    color: steelblue;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.event-right {
+    float: right;
+    width:30%;
+    height:450px;
+    background-color: whitesmoke;
+    color: steelblue;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.event-center {
+    margin: 0 auto;
+    width: 200px;
+    height:450px;
+    background-color: whitesmoke;
+    color: steelblue;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.subscribeButton {
+    width: 90%;
+    height: 40px;
+    margin-top:60px;
+    margin-left: 14px;
+    font-size: 25px;
+    background: none;
+    color: steelblue;
+    border: solid thin;
+    align-content: center;
+    border: solid thin steelblue;
+}
+
+.postButton {
+    width: 30%;
+    height: 46px;
+    color: steelblue;
+    float: right;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.postText {
+    resize: none;
+    width: 70%;
+    height: 100%;
+    color: steelblue;
+    text-align:center;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.addComment {
+    float:right;
+    width: 25%;
+    height: 30px;
+    margin-right: 3px;
+    margin-top:15px;
+    font-size: 10px;
+    background: none;
+    color: steelblue;
+    border: solid thin steelblue;
+}
+
+.loginPage {
+    margin: 0 auto;
+    width: 40%;
+    height:auto;
+    background-color: whitesmoke;
+    color: steelblue;
+    text-align: center;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.loginPage-button {
+    width: 90%;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 14px;
+    font-size: 25px;
+    background: none;
+    color: steelblue;
+    border: solid thin;
+    align-content: center;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.signUpPage-center {
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.signUp-button {
+    width: 90%;
+    height: 40px;
+    margin-top: 2%;
+    margin-left: 14px;
+    font-size: 25px;
+    background: none;
+    color: whitesmoke;
+    border: solid thin;
+    align-content: center;
+    border-radius: 25px;
+}
+
+.navBar-design{
+    background-color: steelblue;
+    color: whitesmoke;
+    border-radius: 25px;
+}
+
+.navBar-buttons{
+    margin-left: 14px;
+    font-size: 25px;
+    background: none;
+    border-radius: 25px;
+}
+
+.index-left {
+    float: left;
+    margin: 0 auto;
+    width:30%;
+    height:450px;
+    background-color: whitesmoke;
+    color: steelblue;
+    text-align: center;
+    align-content: center;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}
+
+.index-right {
+    float: right;
+    margin: 0 auto;
+    width:55%;
+    height:450px;
+    background-color: whitesmoke;
+    color: steelblue;
+    text-align: center;
+    align-content: center;
+    border-radius: 25px;
+    border: solid thin steelblue;
+}

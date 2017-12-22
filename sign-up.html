@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta charset="UTF-8">
+    <title>Café Nexus - Sign Up</title>
+
+</head>
+
+<!-- Nedenstående kode er lavet med inspiration fra jeres JavaScript-Client -->
+
+<body>
+
+    <div class="container">
+        <div class="row" id="nav-container"></div>
+
+        <div id="passwordMismatch" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Passwords did not match!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>The passwords did not match one another.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin:0 auto;width:40%;height:auto;background-color: whitesmoke;color: steelblue;border: solid thin steelblue;border-radius: 25px;">
+                <div class="page-header">
+                    <h1 style="text-align:center;">Register a user</h1>
+                    <div id="register"></div>
+                </div>
+                <div class="signUpPage-center">
+                <div class="form-group">
+                    <label class="control-label" for="firstName">Firstname</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Firstname">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="lastName">Surname</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Surname">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="email">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <form id="gender">
+                        <label class="control-label">Gender</label>
+                        <input type="radio" name="gender" value="M">Male</input>
+                        <input type="radio" name="gender" value="F">Female</input>
+                    </form>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="description">Description</label>
+                    <input type="text" class="form-control" id="description" placeholder="Write a short description of yourself">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="major">Major</label>
+                    <input type="text" class="form-control" id="major" placeholder="Major">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="semester">Semester</label>
+                    <select style="color:#4e5d6c" id="semester">
+                        <option>--Choose a semester--</option>
+                        <option value="1">1. Semester</option>
+                        <option value="2">2. Semester</option>
+                        <option value="3">3. Semester</option>
+                        <option value="4">4. Semester</option>
+                        <option value="5">5. Semester</option>
+                        <option value="6">6. Semester</option>
+                        <option value="7">7. Semester</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="password1">Password</label>
+                    <input type="password" class="form-control" id="password1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="password2">Re-enter Password</label>
+                    <input type="password" class="form-control" id="password2" placeholder="Password">
+                </div>
+                <button class="btn btn-default signUp-button" id="register-button">Register</button>
+            </div>
+        </div>
+
+<footer class="footer">
+    <div class="container">
+        <p style="text-align:center;" class="text-muted">2017 © All rights reserved - Café Nexus</p>
+    </div>
+</footer>
+
+
+<script src="lib/js/jquery-3.2.1.js"></script>
+<script src="lib/js/bootstrap.js"></script>
+<script src="js/sdk.js"></script>
+<script src="js/sign-up.js"></script>
+<script>
+    SDK.User.loadNav();
+</script>
+
+</body>
+</html>
